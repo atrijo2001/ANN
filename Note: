@@ -1,0 +1,5 @@
+The particular code:
+accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10, n_jobs = 1)
+may not work correctly for your machine. It all depends on the version of the IDE you are using, for me it is spyder. The particular parameter "n_jobs = -1", in ideal cases 
+as we want all the machines for computation at the same time. However it didnt work for me so I had to modify it.
+Source: Stack overflow.
